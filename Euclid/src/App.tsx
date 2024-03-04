@@ -1,12 +1,15 @@
 
-import { Container } from '@mui/material'
-import './App.css'
-
+import { Container, Divider } from '@mui/material'
+import Navbar from './component/Navbar'
 function App() {
   return (
-   <Container>
+    <Container maxWidth="xl">
+        <Navbar />
+        <Divider/>
+        
+    </Container>
     
-   </Container>
+      
   )
 }
 
