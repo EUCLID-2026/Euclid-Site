@@ -1,4 +1,3 @@
-
 import { Container, Divider } from '@mui/material'
 import Navbar from './component/Navbar'
 function App() {
