@@ -1,7 +1,7 @@
 import { Box, Container, Divider } from '@mui/material'
 import Navbar from './component/Navbar'
 import About from './component/About'
-import Map from './component/Map'
+import Map from './component/map'
 import Carousel from './component/Carausel'
 import Whatdo from './component/Whatdo'
 import Projects from './component/Projects'
