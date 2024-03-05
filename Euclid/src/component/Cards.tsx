@@ -16,7 +16,7 @@ const bull = (
 const Cards = ({ label, content, actions }) => {
   return (
     <Box sx={{ minWidth: 275 }}>
-      <Card variant="outlined" style={{ backgroundColor: '#B0D0C0', border: '2px solid #2F6A4D', width: '15vw', height: '15vw', borderRadius: '3vw' }}>
+      <Card variant="outlined">
         <CardContent>
           {content}
         </CardContent>
@@ -27,5 +27,4 @@ const Cards = ({ label, content, actions }) => {
     </Box>
   );
 }
-
 export default Cards;

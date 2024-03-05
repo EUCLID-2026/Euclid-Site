@@ -11,9 +11,9 @@ function Navbar() {
  };
 
  return (
-    <Container maxWidth="xl" sx={{ display: 'flex', mt: 4, mb: 2 }}>
+    <Container maxWidth="xl" sx={{ display: 'flex', mt: 4, mb: 2, }} >
       <img src={img} alt="Eulid logo" />
-      <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: '4rem', marginLeft: '16rem' }}>
+      <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: '4rem', marginLeft: '16rem',cursor:'pointer' }}>
         <h4 onClick={() => scrollToSection('home')}>HOME</h4>
         <h4 onClick={() => scrollToSection('about')}>ABOUT</h4>
         <h4 onClick={() => scrollToSection('project')}>PROJECT</h4>
