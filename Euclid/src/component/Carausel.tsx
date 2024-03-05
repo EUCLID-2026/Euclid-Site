@@ -95,9 +95,9 @@ export default class Example extends Component<{}, ExampleState> {
 
   render() {
     return (
-    <Box maxWidth='md' sx={{ml:20}}>
+    <Box maxWidth='xl' sx={{mt:0}}>
       <div
-        style={{ width: "80%", height: "500px", margin: "0 auto" }}
+        style={{ width: "50rem", height: "500px", margin: "0 auto" }}
         onTouchStart={this.handleTouchStart}
         onTouchMove={this.handleTouchMove}
       >

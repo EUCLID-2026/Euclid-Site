@@ -8,12 +8,7 @@ const data = [
 
 function Contactus () {
     return (
-        <Container>
-        <Box maxWidth='xl' sx={{p:2,backgroundColor:'#BEE0CF',width:'102.4%',ml:-4,mt:8}}>
-        <Typography  variant="h4" align='center' sx={{color:'#2F6A4D'}}>
-            Contact Us
-        </Typography>
-        </Box>
+        <Container> 
         <>
       {data.map((item, index) => (
         <Box
