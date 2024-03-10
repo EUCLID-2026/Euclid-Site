@@ -2,7 +2,6 @@ import { Box, Container } from "@mui/material";
 import img from "../assets/image 2.svg";
 
 function Navbar() {
- // Function to scroll to a section
  const scrollToSection = (sectionId) => {
     const section = document.getElementById(sectionId);
     if (section) {
@@ -11,7 +10,7 @@ function Navbar() {
  };
 
  return (
-    <Container maxWidth="xl" sx={{ display: 'flex', mt: 4, mb: 2, }} >
+    <Container maxWidth sx={{ display: 'flex', mt: 4, mb: 2, }} >
       <img src={img} alt="Eulid logo" />
       <Box sx={{ display: 'flex', justifyContent: 'space-between', gap: '4rem', marginLeft: '16rem',cursor:'pointer' }}>
         <h4 onClick={() => scrollToSection('home')}>HOME</h4>

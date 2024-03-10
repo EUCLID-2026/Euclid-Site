@@ -75,7 +75,7 @@ function Projects() {
       <Box maxWidth='xl' sx={{ p: 4, width: '102.4%', ml: -4, textAlign: 'center', display: 'flex', justifyContent: 'center', marginLeft: '1vw' }}>
         <Grid container spacing={4} justifyContent="center">
           {projectCards.map((project, index) => (
-            <Grid item xs={12} sm={6} md={4} key={index}>
+            <Grid item xs={6} sm={6} md={4} key={index}>
               <FlipCard content={project.content} backContent={project.backContent} />
             </Grid>
           ))}
