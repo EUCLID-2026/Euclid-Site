@@ -8,7 +8,7 @@ import Blogs from './component/Blogs'
 import Contactus from './component/Contactus'
 import './App.css'
 import Title from './component/Title'
-import Map from './component/Map'
+import Map from './component/map'
 
 function App() {
  return (
