@@ -95,29 +95,17 @@ export default class Example extends Component<{}, ExampleState> {
 
   render() {
     return (
-    <Box maxWidth='xl' sx={{mt:0}}>
+    <Box maxWidth='xl' sx={{mt:'3vw',}}>
       <div
-        style={{ width: "50rem", height: "500px", margin: "0 auto" }}
+        style={{ width: "50vw", height: "30vw" }}
         onTouchStart={this.handleTouchStart}
         onTouchMove={this.handleTouchMove}
       >
         <Carousel
           slides={this.slides}
           goToSlide={this.state.goToSlide}
-          offsetRadius={this.state.offsetRadius}
-          showNavigation={this.state.showNavigation}
           animationConfig={this.state.config}
         />
-        <div
-          style={{
-            margin: "0 auto",
-            marginTop: "2rem",
-            width: "50%",
-            display: "flex",
-            justifyContent: "space-around",
-          }}
-        >
-         </div>
       </div>
       </Box>
     );

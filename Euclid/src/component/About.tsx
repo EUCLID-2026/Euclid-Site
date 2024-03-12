@@ -2,7 +2,7 @@ import { Box, Container, Typography } from "@mui/material";
 
 function About () {
     return(
-    <Container maxWidth sx={{backgroundColor:'#e6e5e5',width:'100%',mt:24}}>
+    <Container maxWidth sx={{backgroundColor:'#e6e5e5',width:'100%',mt:4}}>
             <Box sx={{p:4}}>
             <Typography variant="h3" align='center'  sx={{color:'#2F6A4D'}}>
                 About Us

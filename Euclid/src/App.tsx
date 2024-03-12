@@ -27,7 +27,7 @@ function App() {
             <Title text='Our Projects'/>
             <Projects/>
           </Box>
-          <Box id="blogs">
+          <Box id="blogs" sx={{}}>
             <Title text='Blogs'/>
             <Blogs/>
           </Box>
