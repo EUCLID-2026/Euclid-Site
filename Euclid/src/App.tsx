@@ -1,4 +1,4 @@
-import { Box, Container, Divider } from '@mui/material'
+import { Box, Divider } from '@mui/material'
 import Navbar from './component/Navbar'
 import About from './component/About'
 import Carousel from './component/Carausel'
@@ -8,12 +8,12 @@ import Blogs from './component/Blogs'
 import Contactus from './component/Contactus'
 import './App.css'
 import Title from './component/Title'
-import Map from './component/map'
+import Map from './component/Map'
 
 function App() {
  return (
     <>
-        <Navbar />
+      <Navbar />
       <Divider />
       <Box sx={{display:'flex',flexDirection:'column',alignItems:'center'}}>
         <Carousel />
