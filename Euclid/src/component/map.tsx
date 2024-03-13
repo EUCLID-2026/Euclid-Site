@@ -20,6 +20,7 @@ const Map = () => {
         </Box>
     </Container>
   );
-};
+}; 
+
 
 export default Map;
